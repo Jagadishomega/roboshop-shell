@@ -3,7 +3,7 @@ Description=Shipping Service
 
 [Service]
 User=roboshop
-Environment=CART_ENDPOINT=<CART-SERVER-IPADDRESS>:8080
+Environment=CART_ENDPOINT=cart.jagadish.cloud:8080
 Environment=DB_HOST=mysql.jagadish.cloud
 ExecStart=/bin/java -jar /app/shipping.jar
 SyslogIdentifier=shipping
