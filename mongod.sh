@@ -1,1 +1,1 @@
-cp mongo.repo /etc/yum.repos.d/mongod.sh
+cp mongo.repo /etc/yum.repos.d/mongo.repo
